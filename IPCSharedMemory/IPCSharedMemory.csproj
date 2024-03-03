@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cloudtoid.Framework" Version="1.0.116" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Cloudtoid.Interprocess">
+      <HintPath>Packpages\cloudtoid.interprocess\2.0.0-alpha176\lib\net6.0\Cloudtoid.Interprocess.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

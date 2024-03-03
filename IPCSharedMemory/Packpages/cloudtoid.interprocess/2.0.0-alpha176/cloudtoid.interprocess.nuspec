@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Cloudtoid.Interprocess</id>
+    <version>2.0.0-alpha176</version>
+    <title>Cloudtoid.Interprocess</title>
+    <authors>pedram@rezaei.us</authors>
+    <projectUrl>https://github.com/cloudtoid/interprocess/blob/main/README.md</projectUrl>
+    <description>A cross-platform shared memory queue for fast interprocess messaging.</description>
+    <copyright>Copyright (c) Cloudtoid</copyright>
+    <tags>interprocess interprocess-communication ipc shared-memory-communication shared-memory-queue shared-memory memory-mapped-file queue cross-process-communication cross-process</tags>
+    <repository url="https://github.com/cloudtoid/interprocess/" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Cloudtoid.Framework" version="1.0.116" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net6.0">
+        <dependency id="Cloudtoid.Framework" version="1.0.116" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="net7.0">
+        <dependency id="Cloudtoid.Framework" version="1.0.116" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
